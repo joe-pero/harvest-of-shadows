@@ -121,7 +121,6 @@ written up in [docs/incident-reviews.md](docs/incident-reviews.md).
 
 ```mermaid
 stateDiagram-v2
-    direction LR
     [*] --> Idle
     Idle --> Primed: someone on the sidewalk
     Primed --> Idle: walked past (90 s)
