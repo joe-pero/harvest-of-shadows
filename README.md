@@ -13,6 +13,18 @@ outcome on the night. It detects an event, decides with rules, uses AI only wher
 earns its place, caps vendor spend, logs every outcome and never lets a failure go
 silent. This repo is the code behind the 2026 show.
 
+## Why I'm sharing this
+
+It's a window into how I approach technology and systems, at work or at home: start with
+the problem, give every tool a clear job, build in controls, measure the results, and keep
+a person in the loop where it matters. And it's been a lot of fun.
+
+I believe we build stronger communities when we collaborate. That goes for my professional
+network and for the home haunt and maker community that taught me so much. Take what's
+useful, improve it, and send ideas back through an issue. One standalone tool has already
+come out of it: [projection-fit](https://github.com/joe-pero/projection-fit), which fits
+projected video onto a door or window from one phone photo.
+
 ![System map](docs/linkedin/system-map.png)
 
 ## The 2026 season at a glance
