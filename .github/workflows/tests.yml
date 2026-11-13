@@ -11,11 +11,53 @@ jobs:
       - run: pip install "paho-mqtt>=2,<3"
       - name: Use the credentials template (no real credentials in CI)
         run: cp orchestration/mqtt_credentials.py.template orchestration/mqtt_credentials.py
-      - name: Show logic, theme deck, banter, live clock, hardening, insert fitting
+      - name: Show logic, theme deck, banter, live clock, hardening, insert fitting, demo night
         working-directory: orchestration
         run: |
-          for t in test_controller test_theme_deck test_banter_select test_slot_fit test_live_clock test_live_hardening; do
+          for t in test_controller test_theme_deck test_banter_select test_slot_fit test_live_clock test_live_hardening test_demo; do
             echo "::group::$t"; python $t.py; echo "::endgroup::"
           done
       - name: AI content screen
         run: python orchestration/vision/test_screen.py
+      - name: Simulated night runs
+        working-directory: orchestration
+        run: python -m showsim.demo --groups 20
+
+  firmware:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { prop: scarecrow-narrator-a1s,  env: scarecrow }
+          - { prop: skeleton-narrator-a1s,   env: skeleton }
+          - { prop: spooky-tree,             env: spooky_tree }
+          - { prop: pumpkin-men,             env: pumpkin_men }
+          - { prop: patch-audio-left,        env: patch_left }
+          - { prop: patch-audio-right,       env: patch_right }
+          - { prop: singing-pumpkins,        env: singing_pumpkins }
+          - { prop: crows,                   env: esp32dev }
+          - { prop: scarecrow-shoulder-crows, env: esp32dev }
+          - { prop: zombie-relay-esp01s,     env: zombie_relay }
+          - { prop: zombie-dmx-light,        env: dmx_show }
+          - { prop: zombie-ir-lights,        env: zombie_ir }
+          - { prop: parkway-mosfet,          env: show }
+          - { prop: stain-glass-window,      env: show }
+          - { prop: zombie-fog-nano,         env: nano }
+          - { prop: touchpad-ota-controller, env: touchpad_ota_controller }
+    name: firmware (${{ matrix.prop }})
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4
+        with:
+          path: ~/.platformio
+          key: pio-${{ matrix.prop }}-${{ hashFiles(format('props/{0}/platformio.ini', matrix.prop)) }}
+      - run: pip install platformio
+      - name: Use the credentials template (no real credentials in CI)
+        run: cp shared/Shared_Constants/wifi_credentials.h.template shared/Shared_Constants/wifi_credentials.h
+      - name: Build
+        working-directory: props/${{ matrix.prop }}
+        run: pio run -e ${{ matrix.env }}

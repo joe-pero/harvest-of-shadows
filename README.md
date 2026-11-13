@@ -29,6 +29,39 @@ projected video onto a door or window from one phone photo.
 
 ![System map](docs/linkedin/system-map.png)
 
+## Try it in one minute (no hardware)
+
+The show logic runs on its own, so you can watch a simulated night on any computer with Python 3:
+
+```bash
+git clone https://github.com/joe-pero/harvest-of-shadows
+cd harvest-of-shadows/orchestration
+python3 -m showsim.demo
+```
+
+It drives the same state machine the live show runs, with a scripted mix of visitors (people
+walking past, groups who stop, hesitate, linger for an encore or leave early):
+
+```
+17:32:34  group  2: stops at the waiting spot (older group) -> pre-show, theme Mutant Pumpkins, tone scary
+17:33:22            hesitates: 1 "still standing there?" taunt
+17:33:30            walks up the path -> MAIN SHOW: narrator outro, then the whole yard on one cue
+17:43:36  group  4: stops at the waiting spot (AI unsure) -> pre-show, theme Return of the Living Dead, tone scary
+17:44:02            walks up the path -> MAIN SHOW: narrator outro, then the whole yard on one cue
+17:44:57            still on the path -> ENCORE (same theme, banter only, no new show)
+18:01:37     ! mainshow cue NOT confirmed (narrator status link down): flagged for review
+...
+Night summary (1 h 07 min simulated)
+  Visits (stopped at the waiting spot)     8
+  Main shows                               7
+  Encores                                  2
+  Cues sent to the yard                    26
+  Cues flagged as unconfirmed              1
+```
+
+Options: `--groups 30`, `--seed 7` (same seed = same night), `--verbose` (every state-machine
+step and the narrators' lines), `--pace 0.02` (watch it play out in real time).
+
 ## The 2026 season at a glance
 
 Live season: 11 show nights, October 20 to November 1. Every number comes from the show's own
@@ -152,10 +185,14 @@ camera layouts and anything about the people who visited.
 
 ## Tests
 
-The show logic runs without any hardware, so it's tested on every push: the visit state machine,
-theme rotation, narrator banter selection, live-insert fitting, the show clock, failure hardening
-(watchdogs, visit time limits) and the AI content screen (cases that must pass and must be rejected).
-See [`.github/workflows/tests.yml`](.github/workflows/tests.yml).
+Every push runs two sets of checks (see [`.github/workflows/tests.yml`](.github/workflows/tests.yml)):
+
+- **Show logic**, with no hardware: the visit state machine, theme rotation, narrator banter
+  selection, live-insert fitting, the show clock, failure hardening (watchdogs, visit time limits),
+  the AI content screen (cases that must pass and must be rejected), and the simulated night,
+  which has to agree with the state machine across 20 seeded nights.
+- **Firmware**: all 16 props are compiled from a clean copy using only the credentials
+  templates, the same way anyone cloning the repo would build them.
 
 ## Roadmap
 
