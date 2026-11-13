@@ -279,9 +279,9 @@ Every push runs two sets of checks (see [`.github/workflows/tests.yml`](.github/
 - **Firmware**: all 16 props and the first-follower example are compiled from a clean copy using only the credentials
   templates, the same way anyone cloning the repo would build them.
 
-## Roadmap
+## Roadmap and changes
 
-See [ROADMAP.md](ROADMAP.md).
+See [ROADMAP.md](ROADMAP.md) and [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
