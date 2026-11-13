@@ -29,23 +29,25 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { prop: scarecrow-narrator-a1s,  env: scarecrow }
-          - { prop: skeleton-narrator-a1s,   env: skeleton }
-          - { prop: spooky-tree,             env: spooky_tree }
-          - { prop: pumpkin-men,             env: pumpkin_men }
-          - { prop: patch-audio-left,        env: patch_left }
-          - { prop: patch-audio-right,       env: patch_right }
-          - { prop: singing-pumpkins,        env: singing_pumpkins }
-          - { prop: crows,                   env: esp32dev }
-          - { prop: scarecrow-shoulder-crows, env: esp32dev }
-          - { prop: zombie-relay-esp01s,     env: zombie_relay }
-          - { prop: zombie-dmx-light,        env: dmx_show }
-          - { prop: zombie-ir-lights,        env: zombie_ir }
-          - { prop: parkway-mosfet,          env: show }
-          - { prop: stain-glass-window,      env: show }
-          - { prop: zombie-fog-nano,         env: nano }
-          - { prop: touchpad-ota-controller, env: touchpad_ota_controller }
-    name: firmware (${{ matrix.prop }})
+          - { name: scarecrow-narrator-a1s, dir: props/scarecrow-narrator-a1s, env: scarecrow }
+          - { name: skeleton-narrator-a1s, dir: props/skeleton-narrator-a1s, env: skeleton }
+          - { name: spooky-tree, dir: props/spooky-tree, env: spooky_tree }
+          - { name: pumpkin-men, dir: props/pumpkin-men, env: pumpkin_men }
+          - { name: patch-audio-left, dir: props/patch-audio-left, env: patch_left }
+          - { name: patch-audio-right, dir: props/patch-audio-right, env: patch_right }
+          - { name: singing-pumpkins, dir: props/singing-pumpkins, env: singing_pumpkins }
+          - { name: crows, dir: props/crows, env: esp32dev }
+          - { name: scarecrow-shoulder-crows, dir: props/scarecrow-shoulder-crows, env: esp32dev }
+          - { name: zombie-relay-esp01s, dir: props/zombie-relay-esp01s, env: zombie_relay }
+          - { name: zombie-dmx-light, dir: props/zombie-dmx-light, env: dmx_show }
+          - { name: zombie-ir-lights, dir: props/zombie-ir-lights, env: zombie_ir }
+          - { name: parkway-mosfet, dir: props/parkway-mosfet, env: show }
+          - { name: stain-glass-window, dir: props/stain-glass-window, env: show }
+          - { name: zombie-fog-nano, dir: props/zombie-fog-nano, env: nano }
+          - { name: touchpad-ota-controller, dir: props/touchpad-ota-controller, env: touchpad_ota_controller }
+          - { name: first-follower-follower, dir: examples/first-follower, env: follower }
+          - { name: first-follower-test_sender, dir: examples/first-follower, env: test_sender }
+    name: firmware (${{ matrix.name }})
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -54,10 +56,10 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: ~/.platformio
-          key: pio-${{ matrix.prop }}-${{ hashFiles(format('props/{0}/platformio.ini', matrix.prop)) }}
+          key: pio-${{ matrix.name }}-${{ hashFiles(format('{0}/platformio.ini', matrix.dir)) }}
       - run: pip install platformio
       - name: Use the credentials template (no real credentials in CI)
         run: cp shared/Shared_Constants/wifi_credentials.h.template shared/Shared_Constants/wifi_credentials.h
       - name: Build
-        working-directory: props/${{ matrix.prop }}
+        working-directory: ${{ matrix.dir }}
         run: pio run -e ${{ matrix.env }}

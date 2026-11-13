@@ -161,6 +161,7 @@ short leash. I set the requirements, the rules and the limits, and I made the ca
 | [`orchestration/vision`](orchestration/vision) | The narrow AI call, interpretation layer and content screen |
 | [`props/scarecrow-narrator-a1s`](props/scarecrow-narrator-a1s) | Show leader: ESP32-A1S audio board, Wi-Fi + ESP-NOW broadcaster |
 | [`props/skeleton-narrator-a1s`](props/skeleton-narrator-a1s) | Second narrator, handshakes with the Scarecrow |
+| [`examples/first-follower`](examples/first-follower) | **Start here to add your own prop:** the smallest follower that joins the cue network, plus a test sender |
 | `props/*` | One folder per follower prop: spatial-audio speakers, crows, projectors, DMX, IR lights, fog, relays |
 | [`shared`](shared) | The common ESP-NOW message contract, follower logic, diagnostics and a hardened MP3 driver |
 | [`docs/hardware-gotchas.md`](docs/hardware-gotchas.md) | Every hardware lesson I paid for, so you don't have to |
@@ -191,7 +192,7 @@ Every push runs two sets of checks (see [`.github/workflows/tests.yml`](.github/
   selection, live-insert fitting, the show clock, failure hardening (watchdogs, visit time limits),
   the AI content screen (cases that must pass and must be rejected), and the simulated night,
   which has to agree with the state machine across 20 seeded nights.
-- **Firmware**: all 16 props are compiled from a clean copy using only the credentials
+- **Firmware**: all 16 props and the first-follower example are compiled from a clean copy using only the credentials
   templates, the same way anyone cloning the repo would build them.
 
 ## Roadmap
