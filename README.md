@@ -68,7 +68,8 @@ event log, the camera system's records or the AI usage ledger.
 Cross-checking the narrator boards' own file downloads showed 3 had played (the board's status link
 had dropped for a few seconds) and 1 most likely hadn't (two groups arrived 3 seconds apart). The
 fixes for next season: separate "not played" from "couldn't confirm", re-send cues after a dropout,
-and hold a second group's intro until the first finishes.
+and hold a second group's intro until the first finishes. All 17 of the season's incidents are
+written up in [docs/incident-reviews.md](docs/incident-reviews.md).
 
 ## How it works
 
@@ -130,6 +131,9 @@ short leash. I set the requirements, the rules and the limits, and I made the ca
 | `props/*` | One folder per follower prop: spatial-audio speakers, crows, projectors, DMX, IR lights, fog, relays |
 | [`shared`](shared) | The common ESP-NOW message contract, follower logic, diagnostics and a hardened MP3 driver |
 | [`docs/hardware-gotchas.md`](docs/hardware-gotchas.md) | Every hardware lesson I paid for, so you don't have to |
+| [`docs/incident-reviews.md`](docs/incident-reviews.md) | 17 incidents from the season: root cause, fix, and the pattern behind them |
+| [`docs/remote-flashing-over-a-pi.md`](docs/remote-flashing-over-a-pi.md) | Flash and debug yard props over a Raspberry Pi, safely |
+| [`docs/control-dashboard.md`](docs/control-dashboard.md) | The garage wall display that ran the show |
 | [projection-fit](https://github.com/joe-pero/projection-fit) (separate repo) | Fits the door and window projections from one photo of a marker card |
 
 ## Build it yourself
