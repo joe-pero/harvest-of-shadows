@@ -165,7 +165,7 @@ class Night:
         print("  Themes: " + ", ".join(f"{k} {v}" for k, v in self.themes.most_common()))
         print("  Tones:  " + ", ".join(f"{k} {v}" for k, v in self.tones.most_common()))
         if self.unconfirmed:
-            print("\n  Flagged for review (the live service logs these; see "When the numbers looked wrong" in the README):")
+            print("\n  Flagged for review (the live service logs these; see 'When the numbers looked wrong' in the README):")
             for t, phase, cyc in self.unconfirmed:
                 print(f"    {t}  {phase} cue, visit {cyc}")
         print("-" * 64)
