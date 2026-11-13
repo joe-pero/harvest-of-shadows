@@ -102,6 +102,10 @@ Firmware uses [PlatformIO](https://platformio.org/). Secrets are never in the co
 Not included: voice clones, music, video and show audio (third-party or licensed material),
 camera layouts and anything about the people who visited.
 
+## Roadmap
+
+See [ROADMAP.md](ROADMAP.md).
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
