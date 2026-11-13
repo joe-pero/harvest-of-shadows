@@ -54,6 +54,27 @@ silent. This repo is the code behind the 2026 show.
 | **Measure it, report it** | Every visit is written to a JSON event log; [`tools/show_report.py`](tools/show_report.py) turns a night into the numbers above. |
 | **Root cause, then fix the class** | When something failed on a live night, it got a written incident review and a fix applied to every device with the same weakness, not just the one that broke. |
 
+## AI in this project
+
+This build uses AI in several places, each chosen for a specific job and each kept on a
+short leash. I set the requirements, the rules and the limits, and I made the calls.
+
+**Inside the live show**
+
+| AI | Its one job | The control around it |
+|---|---|---|
+| Object-detection model (Frigate, on a GPU) | Spot people in the yard's camera zones | Zones and masks tuned against real walk-throughs to cut false triggers |
+| OpenAI vision model | Count the group and name a costume in 14 words or less | Content screen, recorded fallback, cooldown, daily cap, hard lifetime spend cap |
+| XTTS-v2 voice cloning (runs locally) | Speak the narrators' ~3,100 lines and the live costume phrase | Every rendered line checked by an automated transcript test before it ships |
+
+**Used to build it**
+
+| AI | What it did |
+|---|---|
+| Claude (Anthropic) as a coding assistant | Pair-programmed firmware, Python and docs; commits it helped write are co-credited |
+| Suno | Generated original songs for the Singing Pumpkins |
+| Adobe Character Animator | Lip-synced the singing pumpkin faces to those songs |
+
 ## What's in this repo
 
 | Folder | What it is |
