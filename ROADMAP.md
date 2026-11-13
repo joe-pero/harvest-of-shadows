@@ -2,9 +2,12 @@
 
 What's coming next, roughly in order.
 
-1. **Projection mapping with markers** (separate repo). Project a set of markers, take one
-   phone photo, and let the code compute the warp that fits your video to a door, window
-   or wall. A check grid then lets a person confirm the fit before it goes live.
+1. ✅ **Projection mapping with markers**: now its own tool,
+   [projection-fit](https://github.com/joe-pero/projection-fit). Project a marker card, take
+   one phone photo, and it fits your video to a door, window or wall. A person confirms the
+   fit before anything renders.
+1. **Show power controller.** One button powers the yard up and checks every switch actually
+   came on, shuts projectors down safely, and skips rainy nights from the forecast.
 2. **Remote flashing over a Raspberry Pi.** Flash and debug ESP32 props in the yard over
    SSH, plus the hardware lessons that cost the most time.
 3. **Show video** at the top of the README.

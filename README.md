@@ -87,6 +87,7 @@ short leash. I set the requirements, the rules and the limits, and I made the ca
 | `props/*` | One folder per follower prop: spatial-audio speakers, crows, projectors, DMX, IR lights, fog, relays |
 | [`shared`](shared) | The common ESP-NOW message contract, follower logic, diagnostics and a hardened MP3 driver |
 | [`docs/hardware-gotchas.md`](docs/hardware-gotchas.md) | Every hardware lesson I paid for, so you don't have to |
+| [projection-fit](https://github.com/joe-pero/projection-fit) (separate repo) | Fits the door and window projections from one photo of a marker card |
 
 ## Build it yourself
 
