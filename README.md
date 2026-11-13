@@ -71,7 +71,7 @@ short leash. I set the requirements, the rules and the limits, and I made the ca
 
 | AI | What it did |
 |---|---|
-| Claude (Anthropic) as a coding assistant | Pair-programmed firmware, Python and docs; commits it helped write are co-credited |
+| AI coding assistants: OpenAI Codex, Anthropic Claude, Google Gemini | Pair-programmed firmware, Python and docs. Codex started the early code; Claude carried most of the build; Gemini filled in when usage limits ran out. I directed the design, tested on real hardware and approved every change. Claude-assisted commits are co-credited. |
 | Suno | Generated original songs for the Singing Pumpkins |
 | Adobe Character Animator | Lip-synced the singing pumpkin faces to those songs |
 
