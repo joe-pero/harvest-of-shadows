@@ -1,5 +1,7 @@
 # Harvest of Shadows
 
+[![tests](https://github.com/joe-pero/harvest-of-shadows/actions/workflows/tests.yml/badge.svg)](https://github.com/joe-pero/harvest-of-shadows/actions/workflows/tests.yml)
+
 **A fraud program leader's system build: a 14-controller, AI-assisted haunted yard, designed, built and run end to end.**
 
 I've spent 20+ years in investigations and fraud, most recently as Senior Manager,
@@ -136,13 +138,20 @@ Firmware uses [PlatformIO](https://platformio.org/). Secrets are never in the co
 
 1. Copy `shared/Shared_Constants/wifi_credentials.h.template` to `wifi_credentials.h` and
    fill in your own Wi-Fi and MQTT details.
-2. Copy `orchestration/livebridge/.env.template` to `.env` for the Python service.
+2. Copy `orchestration/livebridge/.env.template` to `.env` and `orchestration/mqtt_credentials.py.template` to `mqtt_credentials.py` for the Python service.
 3. Device MAC addresses in `shared/Shared_Constants/ProjectConstants.h` are zeroed; set
    your own boards' MACs.
 4. All radios are locked to Wi-Fi channel 11. Change it in one place if your network differs.
 
 Not included: voice clones, music, video and show audio (third-party or licensed material),
 camera layouts and anything about the people who visited.
+
+## Tests
+
+The show logic runs without any hardware, so it's tested on every push: the visit state machine,
+theme rotation, narrator banter selection, live-insert fitting, the show clock, failure hardening
+(watchdogs, visit time limits) and the AI content screen (cases that must pass and must be rejected).
+See [`.github/workflows/tests.yml`](.github/workflows/tests.yml).
 
 ## Roadmap
 

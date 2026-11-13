@@ -1,0 +1,21 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  orchestration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "paho-mqtt>=2,<3"
+      - name: Use the credentials template (no real credentials in CI)
+        run: cp orchestration/mqtt_credentials.py.template orchestration/mqtt_credentials.py
+      - name: Show logic, theme deck, banter, live clock, hardening, insert fitting
+        working-directory: orchestration
+        run: |
+          for t in test_controller test_theme_deck test_banter_select test_slot_fit test_live_clock test_live_hardening; do
+            echo "::group::$t"; python $t.py; echo "::endgroup::"
+          done
+      - name: AI content screen
+        run: python orchestration/vision/test_screen.py
