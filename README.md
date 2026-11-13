@@ -64,7 +64,7 @@ step and the narrators' lines), `--pace 0.02` (watch it play out in real time).
 
 ## The 2026 season at a glance
 
-Live season: 11 show nights, October 20 to November 1. Every number comes from the show's own
+Live season: 10 show nights, October 20 to November 1. Every number comes from the show's own
 event log, the camera system's records or the AI usage ledger.
 
 **Detection**
@@ -116,6 +116,91 @@ written up in [docs/incident-reviews.md](docs/incident-reviews.md).
 4. **Follow.** Every other prop listens to the Scarecrow and does one job: follow the cue.
    Duplicates are ignored, cues from anyone else are ignored *and counted*, and a prop that
    loses its leader finishes its track and returns to idle on its own.
+
+### One visit, as a state machine
+
+```mermaid
+stateDiagram-v2
+    direction LR
+    [*] --> Idle
+    Idle --> Primed: someone on the sidewalk
+    Primed --> Idle: walked past (90 s)
+    Primed --> PreShow: group stops at the waiting spot
+    Idle --> PreShow: group stops at the waiting spot
+    PreShow --> Hold: narrators finish the intro
+    Hold --> Hold: still standing there? taunt (up to 3)
+    Hold --> MainShow: group walks up the path
+    PreShow --> MainShow: group walks up the path
+    Hold --> Idle: group left, or 4-minute visit limit
+    MainShow --> Encore: same group comes back up (max 2)
+    MainShow --> Idle: show music ends (3.5 min)
+    Encore --> Idle
+```
+
+Theme and tone lock when the pre-show starts and can't change mid-visit. These paths are exercised by
+the tests (including six-hour random soaks), and you can watch it run with `python3 -m showsim.demo`.
+
+## The season in charts
+
+The tables above, drawn. Every chart is built from one aggregate data file
+([`docs/charts/season_2026.json`](docs/charts/season_2026.json)) by [`tools/make_charts.py`](tools/make_charts.py);
+nothing in it identifies a visitor. Charts follow your GitHub light or dark theme.
+
+**Demand.** Visits rose through the season and peaked on Halloween. Most groups that stopped also
+walked up for the full show. The one empty night is the camera outage still listed as an open item.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/season-nights-dark.png">
+  <img alt="Bar chart of visits and main shows for each of the 10 show nights. Visits: Oct 20 10, Oct 24 4, Oct 25 7, Oct 26 14, Oct 27 18, Oct 28 4, Oct 29 22, Oct 30 0 (camera blind), Oct 31 72, Nov 1 32. Main shows: 6, 0, 6, 8, 7, 1, 18, 0, 58, 31." src="docs/charts/season-nights-light.png">
+</picture>
+
+**Peak load.** Half of Halloween's visits arrived in one hour. Groups 3 seconds apart are what exposed
+the one real missed intro, and the fix (hold the next group's intro until the current one ends) is
+planned for next season.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/halloween-hours-dark.png">
+  <img alt="Bar chart of Halloween visits by hour: 4-5 PM 8, 5-6 PM 35, 6-7 PM 14, 7-8 PM 15." src="docs/charts/halloween-hours-light.png">
+</picture>
+
+**Detection funnel.** Hundreds of people pass by; only groups that stop and stay start a show, and
+only those trigger a paid AI call. Spend follows real engagement, not foot traffic.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/halloween-funnel-dark.png">
+  <img alt="Funnel for Halloween night: 455 people tracked by the cameras, 130 reached the waiting spot, 72 visits, 58 main shows, 35 live AI costume lines." src="docs/charts/halloween-funnel-light.png">
+</picture>
+
+**Detection quality.** The cameras' confidence that a detected person really is a person. Anything
+under the 70% threshold is ignored, which is why trees and shadows didn't start shows.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/detection-confidence-dark.png">
+  <img alt="Histogram of person-detection confidence during show hours, 4,461 detections from 70% to 94%, median 81%, with the 70% threshold marked." src="docs/charts/detection-confidence-light.png">
+</picture>
+
+**AI cost and speed.** The whole season's AI bill, against the hard cap that switches AI off by
+itself. The call runs while the recorded intro plays; if an answer isn't back in time, a recorded
+line is used instead, so a slow call never leaves a visitor waiting in silence.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/ai-spend-dark.png">
+  <img alt="Meter showing $1.72 of AI spend against an $18 hard cap, 53 calls at about 3.2 cents each." src="docs/charts/ai-spend-light.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/ai-latency-dark.png">
+  <img alt="Histogram of AI response times for 53 calls, from 4 to 14 seconds, median 8.0 seconds." src="docs/charts/ai-latency-light.png">
+</picture>
+
+**Reliability.** Every failure found during the build, by type and date. Most surfaced in testing,
+weeks before the show nights, which is the point of testing early. Full write-ups:
+[docs/incident-reviews.md](docs/incident-reviews.md).
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/charts/incidents-dark.png">
+  <img alt="Timeline of 17 incidents from Sep 23 to Nov 5 by type: power and hardware 4, software 4, firmware 3, process 3, detection and content 2, network 1." src="docs/charts/incidents-light.png">
+</picture>
 
 ## Same discipline, different domain
 

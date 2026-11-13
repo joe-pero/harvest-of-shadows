@@ -1,0 +1,546 @@
+{
+ "_source": "Harvest of Shadows 2026 season. Nightly rows: the show's event log (archive nights.csv). Halloween by hour and the funnel: docs results for 10-31. AI calls: numeric fields of the AI usage log only (no visitor or costume text). Detection confidence: the camera system's person events, show hours 17:00-22:00, Sep 12 - Nov 1, histogram only.",
+ "nights": [
+  {
+   "date": "2026-10-20",
+   "visits": 10,
+   "mainshow": 6,
+   "encore": 0,
+   "hold": 1,
+   "not_played": 3,
+   "ai_calls": 0,
+   "ai_usd": 0.0
+  },
+  {
+   "date": "2026-10-24",
+   "visits": 4,
+   "mainshow": 0,
+   "encore": 0,
+   "hold": 1,
+   "not_played": 0,
+   "ai_calls": 0,
+   "ai_usd": 0.0
+  },
+  {
+   "date": "2026-10-25",
+   "visits": 7,
+   "mainshow": 6,
+   "encore": 2,
+   "hold": 0,
+   "not_played": 0,
+   "ai_calls": 0,
+   "ai_usd": 0.0
+  },
+  {
+   "date": "2026-10-26",
+   "visits": 14,
+   "mainshow": 8,
+   "encore": 1,
+   "hold": 0,
+   "not_played": 0,
+   "ai_calls": 0,
+   "ai_usd": 0.0
+  },
+  {
+   "date": "2026-10-27",
+   "visits": 18,
+   "mainshow": 7,
+   "encore": 0,
+   "hold": 3,
+   "not_played": 0,
+   "ai_calls": 0,
+   "ai_usd": 0.0
+  },
+  {
+   "date": "2026-10-28",
+   "visits": 4,
+   "mainshow": 1,
+   "encore": 0,
+   "hold": 2,
+   "not_played": 0,
+   "ai_calls": 0,
+   "ai_usd": 0.0
+  },
+  {
+   "date": "2026-10-29",
+   "visits": 22,
+   "mainshow": 18,
+   "encore": 22,
+   "hold": 1,
+   "not_played": 3,
+   "ai_calls": 0,
+   "ai_usd": 0.0
+  },
+  {
+   "date": "2026-10-30",
+   "visits": 0,
+   "mainshow": 0,
+   "encore": 0,
+   "hold": 0,
+   "not_played": 0,
+   "ai_calls": 0,
+   "ai_usd": 0.0,
+   "note": "camera saw no one (cause unknown)"
+  },
+  {
+   "date": "2026-10-31",
+   "visits": 72,
+   "mainshow": 58,
+   "encore": 30,
+   "hold": 1,
+   "not_played": 4,
+   "ai_calls": 35,
+   "ai_usd": 1.1126
+  },
+  {
+   "date": "2026-11-01",
+   "visits": 32,
+   "mainshow": 31,
+   "encore": 27,
+   "hold": 2,
+   "not_played": 0,
+   "ai_calls": 18,
+   "ai_usd": 0.6076
+  }
+ ],
+ "halloween_by_hour": {
+  "16:00": 8,
+  "17:00": 35,
+  "18:00": 14,
+  "19:00": 15
+ },
+ "halloween_funnel": [
+  [
+   "People tracked by the cameras",
+   455
+  ],
+  [
+   "Reached the waiting spot",
+   130
+  ],
+  [
+   "Visits (show started)",
+   72
+  ],
+  [
+   "Main shows",
+   58
+  ],
+  [
+   "Live AI costume lines",
+   35
+  ]
+ ],
+ "themes": {
+  "Return of the Living Dead": 80,
+  "Children of the Corn": 56,
+  "Mutant Pumpkins": 47
+ },
+ "ai": {
+  "season_cost_usd": 1.72,
+  "lifetime_cap_usd": 18.0,
+  "calls": [
+   {
+    "night": "2026-10-31",
+    "ms": 7649,
+    "cost_usd": 0.02391,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 5776,
+    "cost_usd": 0.02632,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 8362,
+    "cost_usd": 0.03307,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 9822,
+    "cost_usd": 0.03289,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 9179,
+    "cost_usd": 0.03973,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 7710,
+    "cost_usd": 0.03268,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 7164,
+    "cost_usd": 0.03412,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 10297,
+    "cost_usd": 0.04015,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 4935,
+    "cost_usd": 0.02551,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 8706,
+    "cost_usd": 0.03493,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 10845,
+    "cost_usd": 0.03964,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 11118,
+    "cost_usd": 0.04003,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 10068,
+    "cost_usd": 0.03727,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 6544,
+    "cost_usd": 0.02941,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 6007,
+    "cost_usd": 0.02983,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 7039,
+    "cost_usd": 0.03211,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 8085,
+    "cost_usd": 0.02823,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 12197,
+    "cost_usd": 0.04195,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 6572,
+    "cost_usd": 0.03058,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 7472,
+    "cost_usd": 0.03241,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 7305,
+    "cost_usd": 0.02943,
+    "ok": "False",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 6768,
+    "cost_usd": 0.02941,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 5605,
+    "cost_usd": 0.02548,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 8083,
+    "cost_usd": 0.03163,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 5650,
+    "cost_usd": 0.02062,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 6024,
+    "cost_usd": 0.02485,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 12573,
+    "cost_usd": 0.04459,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 6421,
+    "cost_usd": 0.0289,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 10925,
+    "cost_usd": 0.03916,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 6286,
+    "cost_usd": 0.02761,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 8831,
+    "cost_usd": 0.03277,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 7007,
+    "cost_usd": 0.0259,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 6047,
+    "cost_usd": 0.02677,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 5745,
+    "cost_usd": 0.02632,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-10-31",
+    "ms": 8733,
+    "cost_usd": 0.03438,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 6781,
+    "cost_usd": 0.02566,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 8952,
+    "cost_usd": 0.03703,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 8023,
+    "cost_usd": 0.02923,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 7586,
+    "cost_usd": 0.02998,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 8097,
+    "cost_usd": 0.03142,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 6657,
+    "cost_usd": 0.02935,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 8604,
+    "cost_usd": 0.0325,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 5824,
+    "cost_usd": 0.02755,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 8294,
+    "cost_usd": 0.03145,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 8467,
+    "cost_usd": 0.03376,
+    "ok": "True",
+    "tone": "friendly"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 6398,
+    "cost_usd": 0.02817,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 11661,
+    "cost_usd": 0.04399,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 13187,
+    "cost_usd": 0.04677,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 9559,
+    "cost_usd": 0.03979,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 9004,
+    "cost_usd": 0.03346,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 9839,
+    "cost_usd": 0.03508,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 6261,
+    "cost_usd": 0.02809,
+    "ok": "True",
+    "tone": "scary"
+   },
+   {
+    "night": "2026-11-01",
+    "ms": 11840,
+    "cost_usd": 0.04438,
+    "ok": "True",
+    "tone": "friendly"
+   }
+  ]
+ },
+ "detection_confidence_show_hours": {
+  "n": 4461,
+  "bins": {
+   "0.70": 141,
+   "0.71": 158,
+   "0.72": 148,
+   "0.73": 187,
+   "0.74": 179,
+   "0.75": 212,
+   "0.76": 213,
+   "0.77": 201,
+   "0.78": 213,
+   "0.79": 217,
+   "0.80": 256,
+   "0.81": 236,
+   "0.82": 265,
+   "0.83": 260,
+   "0.84": 242,
+   "0.85": 231,
+   "0.86": 242,
+   "0.87": 214,
+   "0.88": 202,
+   "0.89": 166,
+   "0.90": 148,
+   "0.91": 83,
+   "0.92": 33,
+   "0.93": 11,
+   "0.94": 3
+  }
+ }
+}
