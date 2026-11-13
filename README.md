@@ -29,15 +29,44 @@ projected video onto a door or window from one phone photo.
 
 ## The 2026 season at a glance
 
-| Measure | 2026 result |
+Live season: 11 show nights, October 20 to November 1. Every number comes from the show's own
+event log, the camera system's records or the AI usage ledger.
+
+**Detection**
+
+| Measure | Result |
 |---|---|
-| Visits handled by the show | **183** across the season, **72** on Halloween night |
+| People detected by the cameras (Sep 12 to Nov 1) | **11,242**, of which **4,504** during show hours |
+| Detection confidence that a "person" is a person | median **81.5%** during show hours (90% of detections above 73%); nothing under the **70%** threshold is counted |
+| Zone entries logged (6 camera zones) | **3,372** |
+| Events logged by the show over the whole build | **11,281**, across 10 event types |
+
+**The show**
+
+| Measure | Result |
+|---|---|
+| Visits | **183**, including **72** on Halloween night |
+| Main shows / encores / "hold" taunts | **135** / **82** / **11** |
+| Themes played | Return of the Living Dead **80**, Children of the Corn **56**, Pumpkins **47** |
+| Narrator banter choices made live | **265**, from **~3,100** pre-recorded lines in two locally cloned voices |
+| Show cues sent over the radio mesh | **531**; **10** flagged by the miss detector, mostly false alarms on investigation (see below) |
+| Missed cues, final night | **0** of the night's cues |
 | Controllers in the yard | **14** (ESP32, ESP32-A1S, ESP-01S), one leader + 13 followers |
-| Pre-recorded narrator lines | **~3,100**, two voices cloned locally (no cloud voice service) |
-| Live AI calls on Halloween | **35 / 35** placed, **0** errors, **0** fallbacks |
-| Total AI cost for the season | **$1.72**, under a hard **$18** lifetime cap |
-| Missed cues, final show | **0** |
+
+**AI and cost**
+
+| Measure | Result |
+|---|---|
+| Live AI calls | **53**; on Halloween **35 / 35** placed, **0** errors, **0** fallbacks |
+| AI response time, Halloween | median **7.5 s**, slowest **12.6 s** (the recorded intro covers the wait) |
+| Total AI cost for the season | **$1.72** (about **3 cents** a call), under a hard **$18** lifetime cap |
 | Visitor photos stored | **None.** The frame lives in memory for one call, then it's gone |
+
+**When the numbers looked wrong:** on Halloween the miss detector flagged 4 intros as not played.
+Cross-checking the narrator boards' own file downloads showed 3 had played (the board's status link
+had dropped for a few seconds) and 1 most likely hadn't (two groups arrived 3 seconds apart). The
+fixes for next season: separate "not played" from "couldn't confirm", re-send cues after a dropout,
+and hold a second group's intro until the first finishes.
 
 ## How it works
 
