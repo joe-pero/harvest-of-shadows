@@ -1,11 +1,17 @@
 # Harvest of Shadows
 
-**An e-commerce fraud analyst's off-hours project: a 14-controller, AI-assisted haunted yard.**
+**A fraud program leader's system build: a 14-controller, AI-assisted haunted yard, designed, built and run end to end.**
 
-By day I work in e-commerce fraud and loss prevention. In the fall I build a Halloween
-haunt in my front yard. This repo is the code behind the 2026 show, and it reflects how I
-work: detect the event, decide with rules, cap the spend, log everything, and never let a
-failure go silent.
+I've spent 20+ years in investigations and fraud, most recently as Senior Manager,
+Investigations & eCommerce Fraud. My work there was building the detection, rules,
+case-management and reporting a fraud program runs on, and being accountable for its
+results.
+
+Harvest of Shadows is that same discipline pointed at a different problem. I designed the
+architecture, wrote the rules, set the governance, built the hardware and owned the
+outcome on the night. It detects an event, decides with rules, uses AI only where it
+earns its place, caps vendor spend, logs every outcome and never lets a failure go
+silent. This repo is the code behind the 2026 show.
 
 ![System map](docs/linkedin/system-map.png)
 
@@ -34,17 +40,19 @@ failure go silent.
    Duplicates are ignored, cues from anyone else are ignored *and counted*, and a prop that
    loses its leader finishes its track and returns to idle on its own.
 
-## Where the day job shows up
+## Same discipline, different domain
 
-| Fraud / LP habit | What it looks like here |
+| How I run a fraud program | How it shows up in this build |
 |---|---|
+| **Own the architecture** | One leader, defined follower behavior, one message contract across 14 devices. Every part has a clear owner and a failure plan. |
 | **Rules before models** | The AI gets one narrow job (headcount + a short costume description). Everything around it is pre-recorded and rule-driven. |
 | **Screening and rejection** | Every AI phrase passes an interpretation layer, then a screen that rejects anything about bodies, faces, skin or protected traits. A rejected phrase is never "fixed up"; the visit falls back to a recorded line. See [`orchestration/vision/middle_pipeline.py`](orchestration/vision/middle_pipeline.py). |
 | **Vendor spend controls** | Cooldown between calls, daily cap, hard lifetime cap that shuts AI off automatically, and a schedule limited to trick-or-treat hours. See [`orchestration/livebridge/middle_audio.py`](orchestration/livebridge/middle_audio.py). |
 | **False-positive tuning** | Camera zones and motion masks were audited against real walk-throughs. Reported "skipped intros" on Halloween were investigated: 3 of 4 had actually played. |
 | **No silent failures** | Every cue is logged with an outcome. Narrator-to-narrator handoffs use a confirm/ACK/timeout handshake. An audio module that doesn't confirm playback is logged immediately. |
 | **Privacy by design** | No visitor images are saved. Visitor data stays local and is never published. |
-| **Reporting** | Every visit is written to a JSON event log; [`tools/show_report.py`](tools/show_report.py) turns a night into a summary. |
+| **Measure it, report it** | Every visit is written to a JSON event log; [`tools/show_report.py`](tools/show_report.py) turns a night into the numbers above. |
+| **Root cause, then fix the class** | When something failed on a live night, it got a written incident review and a fix applied to every device with the same weakness, not just the one that broke. |
 
 ## What's in this repo
 
