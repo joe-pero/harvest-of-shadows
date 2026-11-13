@@ -1,0 +1,31 @@
+{
+ "_readme": "Singing Pumpkins show settings. Edit on the card, reboot the player. Numbers only; no comments allowed in JSON besides these _ keys.",
+
+ "volume": 100,
+ "video_mode": "",
+ "serial_port": 0,
+ "serial_baud": 115200,
+
+ "_dj": "DJ mode = when no trick-or-treaters. Shares are target % of PLAYING TIME per face set, not song count.",
+ "dj_share": { "SUNO": 40, "TSP": 30, "ATMOS": 30 },
+ "_atmos_mix": "Inside the ATMOS share: relative odds of song / tale / scare.",
+ "atmos_mix": { "atmos_song": 60, "atmos_tale": 35, "atmos_scare": 5 },
+ "_run": "Play up to this many in a row from one face set before switching (fewer face changes = fewer transitions).",
+ "max_run": 2,
+ "_recent": "Never replay a song until at least this many others have played.",
+ "no_repeat_window": 25,
+
+ "_show": "SHOW mode = ESP32 sends SHOW. Opening + shuffled Clips 2.0 + close-out, planned to fit show_seconds (Joe 2026-09-27: 2 to 2.5 min after Burt).",
+ "show_seconds": 150,
+ "_end": "What END from the ESP32 does: 'after_clip' = let the current clip finish then close out; 'now' = cut to close-out.",
+ "end_mode": "after_clip",
+ "_cooldown": "Ignore a new SHOW for this many seconds after a show ends (repeat triggers).",
+ "show_cooldown_seconds": 20,
+
+ "_watchdog": "If a clip has not ended this many seconds past its known duration, skip it.",
+ "watchdog_slack_seconds": 8,
+ "heartbeat_seconds": 30,
+
+ "_loop": "Calibration: play this jukebox number over and over instead of the DJ loop (166 = test grid, 168 = grid + face ovals). 0 = normal. LOOP 0 from HA/ESP32 ends it until reboot.",
+ "loop_n": 0
+}

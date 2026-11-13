@@ -1,0 +1,3 @@
+{
+ "_readme": "Hand-picked skeleton moments, by clip id (see TRACKS.md / library.json). Replaces the automatic ones. \"\" = never on this clip. Format: H<B|L|R><start>-<end> (hold) or K<B|L|R><t1>,<t2>,... (clunk on each time), seconds, space between moments, best first. Rebuild with build_card.py or skel_cues.py."
+}

@@ -1,0 +1,46 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+
+[00:00.021] [main] touchpad-ota (NODE_OTA_CONTROLLER 0x0B) — god-mode panel FRAMEWORK
+[media] STUB — 'media/WiZ player' device NOT confirmed. ASK JOE. No pins claimed.
+[00:00.115] [espnow] channel locked to 11
+[00:00.116] [espnow] ready — node 0x0B (AA:BB:CC:DD:EE:FF)
+[00:00.117] [OK] MAC verified: AA:BB:CC:DD:EE:FF — touchpad / OTA controller
+[00:00.128] [main] ready — ARMED (auto-fires on ROTLD). cmds: arm disarm fire estop ota local external theme status
+[00:00.138] [main] NOTE: touch UI + 'media/WiZ player' NOT built — see docs/zombie-container.md
+[00:05.675] [cmd] theme=1 (simulated SET_THEME cue)
+[00:05.675] [zombie] FIRE (bench: armed + ROTLD theme-lock)
+[relay] pulse GPIO32 for 5000 ms
+[dmx] segment START (timing=EXTERNAL, ~183 s show)
+[00:06.086] [espnow] -> cmd 0x09 pa=1 pb=0 (3x)
+[relay] GPIO32 released
+[00:13.682] [status] armed=1 theme=1 showState=0  dmx_running=1 phase=1 timing=EXTERNAL  relay_busy=0
+[00:13.683] [status] SHOW_ACTIVE_MS=210000  dmx_elapsed=7998 ms  strobe_window=0
+[00:28.998] [status] armed=1 theme=1 showState=0  dmx_running=1 phase=2 timing=EXTERNAL  relay_busy=0
+[00:28.998] [status] SHOW_ACTIVE_MS=210000  dmx_elapsed=23314 ms  strobe_window=0
+[00:30.004] [status] armed=1 theme=1 showState=0  dmx_running=1 phase=2 timing=EXTERNAL  relay_busy=0
+[00:30.004] [status] SHOW_ACTIVE_MS=210000  dmx_elapsed=24319 ms  strobe_window=0
+[00:44.315] [status] armed=1 theme=1 showState=0  dmx_running=1 phase=2 timing=EXTERNAL  relay_busy=0
+[00:44.315] [status] SHOW_ACTIVE_MS=210000  dmx_elapsed=38631 ms  strobe_window=0
+[00:58.626] [status] armed=1 theme=1 showState=0  dmx_running=1 phase=2 timing=EXTERNAL  relay_busy=0
+[00:58.626] [status] SHOW_ACTIVE_MS=210000  dmx_elapsed=52942 ms  strobe_window=0
+[01:00.007] [status] armed=1 theme=1 showState=0  dmx_running=1 phase=2 timing=EXTERNAL  relay_busy=0
+[01:00.007] [status] SHOW_ACTIVE_MS=210000  dmx_elapsed=54322 ms  strobe_window=0
+[01:13.943] [status] armed=1 theme=1 showState=0  dmx_running=1 phase=2 timing=EXTERNAL  relay_busy=0
+[01:13.943] [status] SHOW_ACTIVE_MS=210000  dmx_elapsed=68259 ms  strobe_window=0
+[01:29.259] [status] armed=1 theme=1 showState=0  dmx_running=1 phase=3 timing=EXTERNAL  relay_busy=0
+[01:29.259] [status] SHOW_ACTIVE_MS=210000  dmx_elapsed=83575 ms  strobe_window=1
+[01:30.010] [status] armed=1 theme=1 showState=0  dmx_running=1 phase=3 timing=EXTERNAL  relay_busy=0
+[01:30.010] [status] SHOW_ACTIVE_MS=210000  dmx_elapsed=84325 ms  strobe_window=1
+[relay] ALL released (e-stop)
+[01:41.571] [zombie] END (e-stop)
+[dmx] segment END -> idle green
+[01:41.972] [espnow] -> cmd 0x0A pa=1 pb=0 (3x)

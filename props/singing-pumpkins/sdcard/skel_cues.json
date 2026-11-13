@@ -1,0 +1,2954 @@
+{
+ "addams_family": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.49,
+    "score": 191.8,
+    "t": [
+     1.55,
+     2.06,
+     3.52,
+     4.01,
+     7.48,
+     7.97,
+     9.44,
+     9.95
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 95.6,
+    "b": 96.6,
+    "c": "B",
+    "prom": 3.4,
+    "side": 0.2
+   }
+  ],
+  "mtime": 1791005827,
+  "size": 9462469
+ },
+ "addams_family_b": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.5,
+    "score": 141.7,
+    "t": [
+     5.51,
+     6.01,
+     7.49,
+     7.97,
+     11.42,
+     11.94
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 53.6,
+    "b": 54.8,
+    "c": "B",
+    "prom": 3.6,
+    "side": 0.2
+   }
+  ],
+  "mtime": 1791008789,
+  "size": 9177684
+ },
+ "backroad_gasoline": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "R",
+    "gap": 0.5,
+    "score": 189.3,
+    "t": [
+     224.69,
+     225.19,
+     226.86,
+     227.36,
+     227.86,
+     228.36,
+     228.86,
+     229.53
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793127506,
+  "size": 11682218
+ },
+ "backroads_and_coffee_cups": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 13.0,
+    "b": 14.4,
+    "c": "B",
+    "prom": 4.9,
+    "side": 0.0
+   },
+   {
+    "a": 46.0,
+    "b": 48.0,
+    "c": "B",
+    "prom": 3.6,
+    "side": 0.2
+   }
+  ],
+  "mtime": 1793127440,
+  "size": 8119997
+ },
+ "bad_moon_rising": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791005851,
+  "size": 15997803
+ },
+ "ballad_of_the_rotten_field": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.89,
+    "score": 273.6,
+    "t": [
+     29.8,
+     30.69,
+     31.57,
+     35.17,
+     36.03,
+     36.92,
+     37.82
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 38.4,
+    "b": 40.3,
+    "c": "B",
+    "prom": 5.4,
+    "side": 0.0
+   },
+   {
+    "a": 208.2,
+    "b": 209.2,
+    "c": "B",
+    "prom": 3.6,
+    "side": -0.7
+   }
+  ],
+  "mtime": 1793128283,
+  "size": 11351930
+ },
+ "barnwood_requiem": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 59.6,
+    "b": 61.5,
+    "c": "B",
+    "prom": 3.0,
+    "side": 0.8
+   }
+  ],
+  "mtime": 1793128140,
+  "size": 8684278
+ },
+ "barrel_rattle_revival": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1793128637,
+  "size": 7304187
+ },
+ "bayou_bones": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 1.64,
+    "score": 277.8,
+    "t": [
+     38.38,
+     40.0,
+     41.62,
+     43.26,
+     44.89,
+     46.5,
+     48.14
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 12.7,
+    "b": 13.8,
+    "c": "B",
+    "prom": 5.5,
+    "side": -0.2
+   }
+  ],
+  "mtime": 1793129044,
+  "size": 9933104
+ },
+ "black_cat_came_back": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 143.6,
+    "b": 144.6,
+    "c": "B",
+    "prom": 3.3,
+    "side": 0.1
+   }
+  ],
+  "mtime": 1791009155,
+  "size": 17229879
+ },
+ "black_wind": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1793128992,
+  "size": 5803702
+ },
+ "blood_in_the_corn": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.69,
+    "score": 135.0,
+    "t": [
+     205.22,
+     205.91,
+     206.6,
+     207.3,
+     209.37,
+     210.05
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 11.1,
+    "b": 12.1,
+    "c": "B",
+    "prom": 6.5,
+    "side": 0.1
+   },
+   {
+    "a": 47.2,
+    "b": 48.2,
+    "c": "B",
+    "prom": 4.4,
+    "side": -0.3
+   }
+  ],
+  "mtime": 1793129534,
+  "size": 9081179
+ },
+ "blue_moon": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 9.3,
+    "b": 10.4,
+    "c": "L",
+    "prom": 5.0,
+    "side": 7.5
+   }
+  ],
+  "mtime": 1791006036,
+  "size": 7671752
+ },
+ "bohemian_rhapsody": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "L",
+    "gap": 0.43,
+    "score": 111.5,
+    "t": [
+     184.93,
+     185.36,
+     185.79,
+     186.21
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 154.8,
+    "b": 157.4,
+    "c": "B",
+    "prom": 3.8,
+    "side": 0.4
+   },
+   {
+    "a": 195.5,
+    "b": 196.8,
+    "c": "B",
+    "prom": 10.0,
+    "side": 2.3
+   }
+  ],
+  "mtime": 1791006361,
+  "size": 21247514
+ },
+ "brain_in_a_jar": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1793129441,
+  "size": 6652480
+ },
+ "brainstorm_in_the_graveyard": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1793129838,
+  "size": 7697210
+ },
+ "carvingstriopumpkin_02_nice_night_really_pretty_whoa_whoa": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 28.5,
+    "b": 29.6,
+    "c": "B",
+    "prom": 6.1,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791010749,
+  "size": 3658931
+ },
+ "carvingstriopumpkin_03_good_one_dippy_zing_time_to": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 9.6,
+    "b": 10.6,
+    "c": "B",
+    "prom": 4.0,
+    "side": 0.0
+   }
+  ],
+  "mtime": 1791010752,
+  "size": 2767430
+ },
+ "carvingstriopumpkin_04_now_lets_bescary_meow_im_a": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 14.7,
+    "b": 15.7,
+    "c": "R",
+    "prom": 6.8,
+    "side": -6.7
+   }
+  ],
+  "mtime": 1791010739,
+  "size": 2234885
+ },
+ "carvingstriopumpkin_05_okay_okay_favorite_monster_go": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010792,
+  "size": 1649716
+ },
+ "children_of_the_green_fog": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1793130312,
+  "size": 13268984
+ },
+ "cornfield_after_dark": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "L",
+    "gap": 0.69,
+    "score": 253.1,
+    "t": [
+     1.07,
+     1.76,
+     2.45,
+     3.14,
+     3.83,
+     4.52,
+     5.21,
+     5.9
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793130301,
+  "size": 7889579
+ },
+ "cornfield_procession_slow_folk": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.47,
+    "score": 249.0,
+    "t": [
+     92.46,
+     92.91,
+     98.08,
+     98.53,
+     99.95,
+     100.41,
+     100.89,
+     101.35
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 66.9,
+    "b": 69.2,
+    "c": "B",
+    "prom": 4.4,
+    "side": 0.4
+   },
+   {
+    "a": 31.4,
+    "b": 32.5,
+    "c": "B",
+    "prom": 3.8,
+    "side": 0.2
+   }
+  ],
+  "mtime": 1793130646,
+  "size": 8736338
+ },
+ "cornfleid_show": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.39,
+    "score": 191.3,
+    "t": [
+     207.28,
+     207.67,
+     208.03,
+     209.59,
+     209.98,
+     210.39,
+     210.78,
+     211.17
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 214.5,
+    "b": 215.5,
+    "c": "B",
+    "prom": 3.0,
+    "side": 0.4
+   }
+  ],
+  "mtime": 1793130649,
+  "size": 9119726
+ },
+ "crows_over_the_silo": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.71,
+    "score": 191.9,
+    "t": [
+     4.04,
+     4.75,
+     6.87,
+     7.59,
+     9.72,
+     10.43,
+     11.14
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793130864,
+  "size": 8089433
+ },
+ "custom_vincent_price_puppet": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 132.0,
+    "b": 133.1,
+    "c": "B",
+    "prom": 7.1,
+    "side": 0.1
+   },
+   {
+    "a": 110.1,
+    "b": 111.1,
+    "c": "B",
+    "prom": 5.5,
+    "side": 0.2
+   }
+  ],
+  "mtime": 1791006172,
+  "size": 11913147
+ },
+ "day_o": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 156.7,
+    "b": 157.7,
+    "c": "B",
+    "prom": 12.4,
+    "side": 0.0
+   },
+   {
+    "a": 126.5,
+    "b": 127.5,
+    "c": "B",
+    "prom": 7.2,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791006190,
+  "size": 13008740
+ },
+ "dead_mans_party": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 9.3,
+    "b": 10.4,
+    "c": "B",
+    "prom": 4.5,
+    "side": 0.5
+   },
+   {
+    "a": 40.5,
+    "b": 41.6,
+    "c": "B",
+    "prom": 3.3,
+    "side": -0.5
+   }
+  ],
+  "mtime": 1791006361,
+  "size": 18021277
+ },
+ "devil_went_down_to_georgia": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791006571,
+  "size": 14024890
+ },
+ "did_you_hear_about": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1793130924,
+  "size": 11013287
+ },
+ "did_you_hear_about_b": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.57,
+    "score": 205.5,
+    "t": [
+     203.71,
+     204.3,
+     204.85,
+     206.58,
+     207.14,
+     208.28,
+     208.87,
+     209.44
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793131144,
+  "size": 11597902
+ },
+ "doo_wop_for_the_damned": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 1.98,
+    "score": 151.4,
+    "t": [
+     1.84,
+     3.83,
+     7.13,
+     9.11,
+     13.74,
+     15.72
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793131096,
+  "size": 6598909
+ },
+ "doo_wop_for_the_damned_b": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.37,
+    "score": 160.6,
+    "t": [
+     64.72,
+     65.09,
+     65.52,
+     65.89,
+     67.92,
+     68.29,
+     68.72,
+     69.09
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793131215,
+  "size": 4595171
+ },
+ "double_trouble": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 31.1,
+    "b": 32.1,
+    "c": "B",
+    "prom": 8.1,
+    "side": 1.4
+   },
+   {
+    "a": 88.5,
+    "b": 89.7,
+    "c": "B",
+    "prom": 7.6,
+    "side": 1.1
+   }
+  ],
+  "mtime": 1791006348,
+  "size": 6387646
+ },
+ "enter_sandman": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.49,
+    "score": 169.0,
+    "t": [
+     11.12,
+     11.61,
+     12.1,
+     13.07,
+     13.57,
+     14.04,
+     15.01,
+     15.51
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1791006765,
+  "size": 17443257
+ },
+ "female_zombie": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 52.4,
+    "b": 53.4,
+    "c": "B",
+    "prom": 3.8,
+    "side": -0.7
+   },
+   {
+    "a": 111.0,
+    "b": 113.0,
+    "c": "B",
+    "prom": 3.5,
+    "side": -0.9
+   }
+  ],
+  "mtime": 1793131451,
+  "size": 11295615
+ },
+ "ghost_host_with_gim_grinning_ghosts": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 112.9,
+    "b": 114.0,
+    "c": "B",
+    "prom": 4.9,
+    "side": -0.4
+   },
+   {
+    "a": 12.8,
+    "b": 14.6,
+    "c": "L",
+    "prom": 3.9,
+    "side": 3.3
+   }
+  ],
+  "mtime": 1791006850,
+  "size": 20576946
+ },
+ "ghostbusters": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 128.0,
+    "b": 129.2,
+    "c": "B",
+    "prom": 3.3,
+    "side": -0.2
+   }
+  ],
+  "mtime": 1791006710,
+  "size": 16984717
+ },
+ "ghostbusters_b": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791009321,
+  "size": 24264139
+ },
+ "gourd_rot_serenade": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 63.4,
+    "b": 65.2,
+    "c": "B",
+    "prom": 3.3,
+    "side": 0.1
+   },
+   {
+    "a": 11.5,
+    "b": 13.2,
+    "c": "B",
+    "prom": 3.3,
+    "side": 0.4
+   }
+  ],
+  "mtime": 1793131488,
+  "size": 9043262
+ },
+ "gourdlight_vigil": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 54.2,
+    "b": 58.2,
+    "c": "B",
+    "prom": 4.8,
+    "side": -0.1
+   }
+  ],
+  "mtime": 1793131672,
+  "size": 8237972
+ },
+ "graveyard_stringline": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 11.9,
+    "b": 13.0,
+    "c": "B",
+    "prom": 5.0,
+    "side": -0.3
+   }
+  ],
+  "mtime": 1793131817,
+  "size": 11757356
+ },
+ "grim_grinning_ghosts": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 42.0,
+    "b": 43.7,
+    "c": "B",
+    "prom": 3.2,
+    "side": -1.8
+   }
+  ],
+  "mtime": 1791006861,
+  "size": 11596532
+ },
+ "grow_just_right": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.42,
+    "score": 259.6,
+    "t": [
+     61.94,
+     62.36,
+     62.78,
+     63.2,
+     63.63,
+     65.74,
+     66.16,
+     66.59
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 170.5,
+    "b": 171.5,
+    "c": "B",
+    "prom": 7.6,
+    "side": 0.0
+   },
+   {
+    "a": 129.3,
+    "b": 130.4,
+    "c": "B",
+    "prom": 4.4,
+    "side": 0.0
+   }
+  ],
+  "mtime": 1793131896,
+  "size": 8925945
+ },
+ "halloween_is_so_much_fun": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 40.6,
+    "b": 41.7,
+    "c": "B",
+    "prom": 4.9,
+    "side": -0.8
+   }
+  ],
+  "mtime": 1791009719,
+  "size": 6130728
+ },
+ "halloween_limericks": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 36.0,
+    "b": 37.0,
+    "c": "B",
+    "prom": 10.9,
+    "side": 0.0
+   },
+   {
+    "a": 187.9,
+    "b": 189.0,
+    "c": "B",
+    "prom": 9.5,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791010163,
+  "size": 20138519
+ },
+ "harvest_at_the_end_of_the_world": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.81,
+    "score": 133.7,
+    "t": [
+     30.0,
+     30.78,
+     31.59,
+     32.42
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 79.4,
+    "b": 80.4,
+    "c": "B",
+    "prom": 4.2,
+    "side": 0.4
+   },
+   {
+    "a": 155.5,
+    "b": 156.6,
+    "c": "B",
+    "prom": 4.4,
+    "side": -0.2
+   }
+  ],
+  "mtime": 1793132105,
+  "size": 9536697
+ },
+ "harvest_of_rot": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 29.5,
+    "b": 31.3,
+    "c": "B",
+    "prom": 3.7,
+    "side": 0.1
+   }
+  ],
+  "mtime": 1793132104,
+  "size": 7262830
+ },
+ "harvest_of_rot_b": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1793132313,
+  "size": 7208423
+ },
+ "harvest_of_rot_b_b": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.69,
+    "score": 191.0,
+    "t": [
+     109.18,
+     109.84,
+     111.7,
+     112.39,
+     119.03,
+     119.72,
+     120.17,
+     120.86
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793132315,
+  "size": 7161178
+ },
+ "harvest_of_rot_b_b_b": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1793132546,
+  "size": 7545478
+ },
+ "harvest_of_shadows": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "L",
+    "gap": 0.69,
+    "score": 211.9,
+    "t": [
+     1.21,
+     1.88,
+     3.26,
+     3.94,
+     4.63,
+     5.28,
+     6.0,
+     6.69
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 21.9,
+    "b": 22.9,
+    "c": "B",
+    "prom": 4.6,
+    "side": 0.3
+   }
+  ],
+  "mtime": 1793132492,
+  "size": 5734199
+ },
+ "harvest_of_the_haunted_hill": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.76,
+    "score": 265.8,
+    "t": [
+     9.95,
+     10.7,
+     12.98,
+     13.73,
+     15.99,
+     16.75,
+     19.01,
+     19.77
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793132678,
+  "size": 6589317
+ },
+ "harvest_of_the_haunted_hill_b": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.36,
+    "score": 234.5,
+    "t": [
+     2.27,
+     2.62,
+     3.69,
+     4.05,
+     5.14,
+     5.49,
+     9.42,
+     9.78
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 11.8,
+    "b": 13.4,
+    "c": "B",
+    "prom": 3.3,
+    "side": 0.6
+   }
+  ],
+  "mtime": 1793132803,
+  "size": 9564974
+ },
+ "harvest_of_the_hollow": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 3.33,
+    "score": 273.4,
+    "t": [
+     23.47,
+     26.8,
+     29.31,
+     32.65,
+     35.97,
+     42.66,
+     45.97,
+     49.3
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 12.9,
+    "b": 15.0,
+    "c": "B",
+    "prom": 4.5,
+    "side": 1.5
+   },
+   {
+    "a": 53.1,
+    "b": 54.1,
+    "c": "B",
+    "prom": 4.3,
+    "side": 0.0
+   }
+  ],
+  "mtime": 1793132939,
+  "size": 8314988
+ },
+ "harvest_of_the_hollow_row": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.41,
+    "score": 165.9,
+    "t": [
+     206.25,
+     206.65,
+     207.06,
+     207.46,
+     209.09,
+     209.5,
+     209.9,
+     210.29
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 39.9,
+    "b": 41.7,
+    "c": "B",
+    "prom": 3.1,
+    "side": -0.3
+   }
+  ],
+  "mtime": 1793133048,
+  "size": 8394116
+ },
+ "harvest_of_the_hollow_row_b": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1793133128,
+  "size": 6636196
+ },
+ "harvest_of_the_poisoned_corn": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.47,
+    "score": 218.7,
+    "t": [
+     1.13,
+     1.61,
+     2.08,
+     2.53,
+     3.0,
+     4.84,
+     5.32,
+     5.79
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 37.2,
+    "b": 38.2,
+    "c": "B",
+    "prom": 7.3,
+    "side": -0.1
+   },
+   {
+    "a": 100.5,
+    "b": 101.5,
+    "c": "B",
+    "prom": 6.7,
+    "side": -0.2
+   }
+  ],
+  "mtime": 1793133331,
+  "size": 9735866
+ },
+ "haunted_houses": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 115.4,
+    "b": 116.7,
+    "c": "B",
+    "prom": 4.7,
+    "side": -0.0
+   },
+   {
+    "a": 33.3,
+    "b": 35.5,
+    "c": "B",
+    "prom": 4.3,
+    "side": -0.1
+   }
+  ],
+  "mtime": 1791010077,
+  "size": 16344850
+ },
+ "heckling_02_hey_kid_yeah_you_with_the": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 14.3,
+    "b": 15.3,
+    "c": "B",
+    "prom": 4.0,
+    "side": -0.1
+   }
+  ],
+  "mtime": 1791010823,
+  "size": 3053986
+ },
+ "heckling_03_your_bags_looking_kinda_heavy_there": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010805,
+  "size": 1961836
+ },
+ "heckling_04_i_have_an_idea_maybe_we": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 10.7,
+    "b": 11.7,
+    "c": "L",
+    "prom": 5.0,
+    "side": 5.5
+   }
+  ],
+  "mtime": 1791010841,
+  "size": 3400956
+ },
+ "heckling_05_hey_kid_kid_what_are_you": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010843,
+  "size": 1670046
+ },
+ "heckling_06_you_there_werent_you_here_earlier": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010850,
+  "size": 1709342
+ },
+ "heckling_07_oh_my_goblin_what_is_that": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010870,
+  "size": 1662252
+ },
+ "heckling_08_oh_look_here_comes_a_dog": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 10.2,
+    "b": 11.2,
+    "c": "R",
+    "prom": 3.6,
+    "side": -8.5
+   }
+  ],
+  "mtime": 1791010891,
+  "size": 2134285
+ },
+ "heckling_09_oh_brother_here_comes_a_real": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010880,
+  "size": 1451457
+ },
+ "heckling_10_ooh_check_out_the_alien_uh": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 10.0,
+    "b": 11.1,
+    "c": "B",
+    "prom": 8.0,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791010907,
+  "size": 2764850
+ },
+ "heckling_11_oh_wow_now_that_is_the": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010912,
+  "size": 2374539
+ },
+ "heckling_12_so_many_great_costumes_so_much": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010909,
+  "size": 1437376
+ },
+ "heckling_hijinks_trio_01_happy_halloween_kids_what_great_cos": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010631,
+  "size": 1076046
+ },
+ "heckling_hijinks_trio_13_happy_halloween_everyone_happy_happ": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 9.5,
+    "b": 10.5,
+    "c": "L",
+    "prom": 6.1,
+    "side": 3.4
+   }
+  ],
+  "mtime": 1791011189,
+  "size": 2399000
+ },
+ "hobnobbin_goblins": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.71,
+    "score": 143.2,
+    "t": [
+     6.39,
+     7.08,
+     7.8,
+     8.52,
+     9.92,
+     10.6
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 11.5,
+    "b": 12.5,
+    "c": "B",
+    "prom": 3.5,
+    "side": 0.9
+   }
+  ],
+  "mtime": 1791009116,
+  "size": 14641452
+ },
+ "hollow_root_ballad": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 46.5,
+    "b": 47.5,
+    "c": "B",
+    "prom": 5.1,
+    "side": 0.5
+   },
+   {
+    "a": 13.4,
+    "b": 15.0,
+    "c": "B",
+    "prom": 5.1,
+    "side": 0.4
+   }
+  ],
+  "mtime": 1793133532,
+  "size": 11230563
+ },
+ "hymn_for_he_who_walks": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.8,
+    "score": 178.8,
+    "t": [
+     156.94,
+     157.73,
+     158.53,
+     164.13,
+     164.93,
+     169.73,
+     170.53
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 32.1,
+    "b": 33.2,
+    "c": "B",
+    "prom": 5.7,
+    "side": 0.6
+   },
+   {
+    "a": 56.3,
+    "b": 58.2,
+    "c": "B",
+    "prom": 3.1,
+    "side": 0.1
+   }
+  ],
+  "mtime": 1793133607,
+  "size": 7907371
+ },
+ "hymn_for_he_who_walks_b": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 44.3,
+    "b": 45.3,
+    "c": "B",
+    "prom": 4.8,
+    "side": 0.4
+   },
+   {
+    "a": 11.2,
+    "b": 12.3,
+    "c": "B",
+    "prom": 3.6,
+    "side": -1.0
+   }
+  ],
+  "mtime": 1793133798,
+  "size": 9127551
+ },
+ "i_aint_got_no_candy": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791009253,
+  "size": 15584830
+ },
+ "i_grew_in_the_dark_soil": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 161.2,
+    "b": 162.2,
+    "c": "B",
+    "prom": 6.5,
+    "side": -1.5
+   },
+   {
+    "a": 13.0,
+    "b": 14.1,
+    "c": "B",
+    "prom": 4.4,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1793133845,
+  "size": 8294233
+ },
+ "i_put_a_spell_on_you": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 39.9,
+    "b": 41.7,
+    "c": "B",
+    "prom": 5.3,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791006928,
+  "size": 11719641
+ },
+ "i_remember_when": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 165.7,
+    "b": 166.8,
+    "c": "B",
+    "prom": 3.1,
+    "side": -2.3
+   }
+  ],
+  "mtime": 1793134164,
+  "size": 13265509
+ },
+ "impressionstriopumpkin_02_whats_with_all_these_people_walkin": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010936,
+  "size": 2287429
+ },
+ "impressionstriopumpkin_03_listen_to_them_children_of_the": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.36,
+    "score": 112.5,
+    "t": [
+     28.76,
+     29.12,
+     29.48,
+     42.73,
+     43.08
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 46.8,
+    "b": 47.8,
+    "c": "B",
+    "prom": 10.5,
+    "side": 0.0
+   }
+  ],
+  "mtime": 1791011028,
+  "size": 6088949
+ },
+ "impressionstriopumpkin_04_oh_come_on_dippy_lighten_up": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 25.1,
+    "b": 26.1,
+    "c": "B",
+    "prom": 10.1,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791011011,
+  "size": 5272509
+ },
+ "impressionstriopumpkin_05_hey_squashy_i_think_we_took": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.4,
+    "score": 165.4,
+    "t": [
+     28.2,
+     28.56,
+     35.92,
+     36.32,
+     36.73,
+     37.18
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 42.9,
+    "b": 44.0,
+    "c": "B",
+    "prom": 9.6,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791011012,
+  "size": 4866717
+ },
+ "in_the_hall_of_the_pumpkin_king": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 95.3,
+    "b": 96.3,
+    "c": "B",
+    "prom": 4.4,
+    "side": 0.5
+   }
+  ],
+  "mtime": 1791009345,
+  "size": 10092754
+ },
+ "its_halloween_tonight": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.55,
+    "score": 176.3,
+    "t": [
+     48.0,
+     48.57,
+     49.12,
+     49.68,
+     50.18
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 37.2,
+    "b": 38.3,
+    "c": "B",
+    "prom": 3.9,
+    "side": -2.6
+   },
+   {
+    "a": 59.7,
+    "b": 60.8,
+    "c": "B",
+    "prom": 5.3,
+    "side": 0.4
+   }
+  ],
+  "mtime": 1791010069,
+  "size": 8653172
+ },
+ "itsy_bitsy_critters": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.55,
+    "score": 190.2,
+    "t": [
+     75.01,
+     75.5,
+     75.97,
+     76.53,
+     78.79,
+     79.34,
+     79.9,
+     80.42
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 16.7,
+    "b": 17.7,
+    "c": "B",
+    "prom": 5.2,
+    "side": -2.0
+   },
+   {
+    "a": 72.4,
+    "b": 73.5,
+    "c": "B",
+    "prom": 5.5,
+    "side": -0.7
+   }
+  ],
+  "mtime": 1791010165,
+  "size": 10487107
+ },
+ "jamboreetriopumpkin_01_uh_hey_you_two_i_got": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 13.2,
+    "b": 14.3,
+    "c": "B",
+    "prom": 5.3,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791010991,
+  "size": 2795483
+ },
+ "jamboreetriopumpkin_02_okay_now_try_and_guess_the": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.45,
+    "score": 199.4,
+    "t": [
+     21.91,
+     22.38,
+     22.85,
+     36.75,
+     37.18,
+     38.56,
+     38.95
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 36.7,
+    "b": 37.7,
+    "c": "B",
+    "prom": 9.2,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791011082,
+  "size": 4235654
+ },
+ "jamboreetriopumpkin_03_how_about_this_when_is_it": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791011050,
+  "size": 1797410
+ },
+ "jamboreetriopumpkin_04_oh_im_gonna_riddle_what_did": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791011045,
+  "size": 1478306
+ },
+ "jamboreetriopumpkin_05_all_right_this_is_an_easy": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 15.1,
+    "b": 16.2,
+    "c": "B",
+    "prom": 3.9,
+    "side": 0.0
+   }
+  ],
+  "mtime": 1791011081,
+  "size": 2361477
+ },
+ "jamboreetriopumpkin_06_let_me_do_one_no_no": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 13.9,
+    "b": 15.0,
+    "c": "B",
+    "prom": 8.8,
+    "side": 0.0
+   }
+  ],
+  "mtime": 1791011101,
+  "size": 2197224
+ },
+ "jamboreetriopumpkin_07_heres_a_fun_one_for_you": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 13.1,
+    "b": 14.2,
+    "c": "B",
+    "prom": 3.2,
+    "side": 0.0
+   }
+  ],
+  "mtime": 1791011129,
+  "size": 3059738
+ },
+ "jolj4creative_carvingstriopumpkin_06_all_right_its_time_to_s": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 22.1,
+    "b": 23.1,
+    "c": "R",
+    "prom": 9.7,
+    "side": -6.5
+   }
+  ],
+  "mtime": 1791011221,
+  "size": 2748437
+ },
+ "jump_in_the_line": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 93.3,
+    "b": 94.3,
+    "c": "B",
+    "prom": 3.2,
+    "side": -0.2
+   }
+  ],
+  "mtime": 1791007108,
+  "size": 19941077
+ },
+ "lanterns_in_the_corn": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 43.4,
+    "b": 44.4,
+    "c": "B",
+    "prom": 3.6,
+    "side": -1.0
+   },
+   {
+    "a": 10.1,
+    "b": 11.1,
+    "c": "B",
+    "prom": 3.7,
+    "side": 1.0
+   }
+  ],
+  "mtime": 1793134075,
+  "size": 8002993
+ },
+ "lord_of_the_gourds": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.62,
+    "score": 134.2,
+    "t": [
+     31.9,
+     32.52,
+     34.09,
+     34.67,
+     35.32
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 145.9,
+    "b": 146.9,
+    "c": "B",
+    "prom": 9.2,
+    "side": 0.0
+   },
+   {
+    "a": 122.4,
+    "b": 123.4,
+    "c": "B",
+    "prom": 7.6,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791010390,
+  "size": 15661847
+ },
+ "monster_mash": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 43.3,
+    "b": 44.4,
+    "c": "B",
+    "prom": 5.3,
+    "side": -1.2
+   },
+   {
+    "a": 169.1,
+    "b": 170.2,
+    "c": "B",
+    "prom": 4.1,
+    "side": -1.2
+   }
+  ],
+  "mtime": 1791007158,
+  "size": 16087913
+ },
+ "monster_mash_b": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 19.4,
+    "b": 20.5,
+    "c": "B",
+    "prom": 3.3,
+    "side": 0.4
+   }
+  ],
+  "mtime": 1791009591,
+  "size": 22258235
+ },
+ "mutant_pumpkins_on_gilmore": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1793134292,
+  "size": 7436764
+ },
+ "mutant_pumpkins_on_gilmore_b": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1793134382,
+  "size": 7254710
+ },
+ "nightmare_on_my_street": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 22.5,
+    "b": 23.5,
+    "c": "B",
+    "prom": 3.7,
+    "side": 0.7
+   }
+  ],
+  "mtime": 1791007437,
+  "size": 17847032
+ },
+ "ode_to_halloween": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 94.0,
+    "b": 95.1,
+    "c": "B",
+    "prom": 4.1,
+    "side": 0.3
+   }
+  ],
+  "mtime": 1791009560,
+  "size": 14727630
+ },
+ "pirate_pumpkins_old_maui": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 16.1,
+    "b": 17.1,
+    "c": "B",
+    "prom": 3.9,
+    "side": -0.5
+   },
+   {
+    "a": 141.2,
+    "b": 143.8,
+    "c": "B",
+    "prom": 3.6,
+    "side": 0.0
+   }
+  ],
+  "mtime": 1791007352,
+  "size": 16388721
+ },
+ "pirate_pumpkins_randy_dandy_o": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 93.0,
+    "b": 94.0,
+    "c": "B",
+    "prom": 3.9,
+    "side": -1.1
+   },
+   {
+    "a": 42.3,
+    "b": 43.3,
+    "c": "B",
+    "prom": 3.3,
+    "side": -1.0
+   }
+  ],
+  "mtime": 1791007324,
+  "size": 10048090
+ },
+ "planted_seeds": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.58,
+    "score": 150.7,
+    "t": [
+     37.57,
+     38.15,
+     38.73,
+     39.3,
+     39.88,
+     40.46,
+     41.03
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793134461,
+  "size": 11290257
+ },
+ "pumpkin_after_midnight": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.45,
+    "score": 162.2,
+    "t": [
+     1.75,
+     2.2,
+     5.14,
+     5.6,
+     6.0
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793134559,
+  "size": 11315895
+ },
+ "pumpkin_after_midnight_b": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.64,
+    "score": 272.7,
+    "t": [
+     1.02,
+     1.65,
+     2.3,
+     4.21,
+     4.85,
+     6.12,
+     6.76,
+     7.4
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793134689,
+  "size": 15764781
+ },
+ "puttin_on_the_ritz": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 76.6,
+    "b": 77.9,
+    "c": "B",
+    "prom": 3.9,
+    "side": 0.0
+   },
+   {
+    "a": 104.0,
+    "b": 106.7,
+    "c": "B",
+    "prom": 3.1,
+    "side": 0.3
+   }
+  ],
+  "mtime": 1791009624,
+  "size": 15103553
+ },
+ "red_riding_hood": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791007424,
+  "size": 14255659
+ },
+ "revival_in_the_rows": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 32.2,
+    "b": 33.2,
+    "c": "B",
+    "prom": 7.0,
+    "side": 0.1
+   }
+  ],
+  "mtime": 1793134857,
+  "size": 10297049
+ },
+ "riders_in_the_sky": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 29.3,
+    "b": 31.2,
+    "c": "B",
+    "prom": 5.4,
+    "side": 0.8
+   },
+   {
+    "a": 127.3,
+    "b": 129.3,
+    "c": "B",
+    "prom": 6.1,
+    "side": 0.6
+   }
+  ],
+  "mtime": 1791007542,
+  "size": 8166365
+ },
+ "rustling_husks": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "R",
+    "gap": 0.74,
+    "score": 275.9,
+    "t": [
+     1.36,
+     2.11,
+     2.84,
+     3.58,
+     4.31,
+     5.04,
+     6.51,
+     7.25
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793134922,
+  "size": 8473403
+ },
+ "scarecrow": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "L",
+    "gap": 1.8,
+    "score": 312.5,
+    "t": [
+     288.68,
+     290.44,
+     292.27,
+     294.06,
+     295.88,
+     297.66,
+     301.26,
+     303.08
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 96.5,
+    "b": 97.6,
+    "c": "B",
+    "prom": 5.8,
+    "side": -0.1
+   },
+   {
+    "a": 186.9,
+    "b": 187.9,
+    "c": "B",
+    "prom": 5.2,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1793135191,
+  "size": 11705779
+ },
+ "scarecrow_s_second_verse": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 14.4,
+    "b": 15.5,
+    "c": "B",
+    "prom": 6.2,
+    "side": 0.3
+   },
+   {
+    "a": 79.6,
+    "b": 80.9,
+    "c": "B",
+    "prom": 3.9,
+    "side": 0.1
+   }
+  ],
+  "mtime": 1793135213,
+  "size": 9392311
+ },
+ "scaring_each_other": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 21.8,
+    "b": 22.9,
+    "c": "L",
+    "prom": 12.6,
+    "side": 10.6
+   }
+  ],
+  "mtime": 1791010567,
+  "size": 4387289
+ },
+ "scaring_in_unison": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 15.9,
+    "b": 17.0,
+    "c": "B",
+    "prom": 10.0,
+    "side": 0.9
+   }
+  ],
+  "mtime": 1791010627,
+  "size": 3009530
+ },
+ "sexy_and_i_know_it": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 126.0,
+    "b": 127.2,
+    "c": "B",
+    "prom": 3.6,
+    "side": -0.2
+   },
+   {
+    "a": 38.0,
+    "b": 39.2,
+    "c": "B",
+    "prom": 3.0,
+    "side": -0.1
+   }
+  ],
+  "mtime": 1791007619,
+  "size": 14109825
+ },
+ "shake_your_bones": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 25.5,
+    "b": 26.7,
+    "c": "B",
+    "prom": 3.5,
+    "side": -0.2
+   },
+   {
+    "a": 74.6,
+    "b": 78.6,
+    "c": "B",
+    "prom": 3.1,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791007647,
+  "size": 9805514
+ },
+ "silo_of_bones": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 19.9,
+    "b": 21.0,
+    "c": "B",
+    "prom": 8.0,
+    "side": -1.9
+   }
+  ],
+  "mtime": 1793135491,
+  "size": 10556852
+ },
+ "sleepy_hollow": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.62,
+    "score": 184.5,
+    "t": [
+     105.19,
+     105.8,
+     108.01,
+     108.65,
+     111.87,
+     112.48,
+     112.91,
+     113.55
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 182.4,
+    "b": 183.7,
+    "c": "B",
+    "prom": 5.2,
+    "side": 0.0
+   },
+   {
+    "a": 134.6,
+    "b": 135.7,
+    "c": "B",
+    "prom": 8.0,
+    "side": 0.0
+   }
+  ],
+  "mtime": 1791010739,
+  "size": 29479251
+ },
+ "smile_wide": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.47,
+    "score": 181.2,
+    "t": [
+     195.97,
+     196.44,
+     199.77,
+     200.22,
+     203.53,
+     204.02,
+     207.31,
+     207.78
+    ]
+   }
+  ],
+  "holds": [],
+  "mtime": 1793135456,
+  "size": 10174286
+ },
+ "smile_wide_b": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.38,
+    "score": 80.5,
+    "t": [
+     177.55,
+     177.93,
+     178.3,
+     178.68
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 69.5,
+    "b": 71.9,
+    "c": "B",
+    "prom": 3.8,
+    "side": 0.1
+   }
+  ],
+  "mtime": 1793135652,
+  "size": 8266451
+ },
+ "somebody_watching_me": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 155.4,
+    "b": 156.5,
+    "c": "B",
+    "prom": 5.0,
+    "side": -0.9
+   },
+   {
+    "a": 78.3,
+    "b": 79.3,
+    "c": "B",
+    "prom": 3.4,
+    "side": -0.4
+   }
+  ],
+  "mtime": 1791007844,
+  "size": 12397358
+ },
+ "split_pumpkin_hymn": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 21.8,
+    "b": 22.8,
+    "c": "B",
+    "prom": 3.3,
+    "side": 0.1
+   }
+  ],
+  "mtime": 1793135672,
+  "size": 7206453
+ },
+ "spooky_scary_skeletons": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791007781,
+  "size": 8965215
+ },
+ "the_cornfield_never_sleeps": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 60.4,
+    "b": 62.2,
+    "c": "B",
+    "prom": 3.8,
+    "side": -0.3
+   }
+  ],
+  "mtime": 1793135844,
+  "size": 6410306
+ },
+ "the_cornfield_never_sleeps_1920_slow_jazz": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 46.0,
+    "b": 47.0,
+    "c": "B",
+    "prom": 4.5,
+    "side": 0.5
+   }
+  ],
+  "mtime": 1793135921,
+  "size": 8382146
+ },
+ "the_husking_hour": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 19.8,
+    "b": 21.0,
+    "c": "B",
+    "prom": 4.2,
+    "side": -0.3
+   }
+  ],
+  "mtime": 1793136101,
+  "size": 8924279
+ },
+ "the_pumpkin_song": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 84.6,
+    "b": 85.7,
+    "c": "B",
+    "prom": 3.3,
+    "side": 1.8
+   },
+   {
+    "a": 38.4,
+    "b": 40.5,
+    "c": "B",
+    "prom": 3.6,
+    "side": 0.2
+   }
+  ],
+  "mtime": 1791009585,
+  "size": 9830448
+ },
+ "the_raven": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 1.21,
+    "score": 205.9,
+    "t": [
+     80.52,
+     81.69,
+     83.98,
+     85.22,
+     86.43,
+     95.49,
+     96.69
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 228.6,
+    "b": 229.7,
+    "c": "B",
+    "prom": 11.0,
+    "side": 0.1
+   },
+   {
+    "a": 179.1,
+    "b": 180.1,
+    "c": "B",
+    "prom": 5.7,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791010662,
+  "size": 22123537
+ },
+ "the_singing_pumpkin": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 128.1,
+    "b": 129.2,
+    "c": "B",
+    "prom": 3.4,
+    "side": -0.2
+   }
+  ],
+  "mtime": 1791008064,
+  "size": 16547002
+ },
+ "the_singing_pumpkins_neverending_story": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 126.1,
+    "b": 128.4,
+    "c": "B",
+    "prom": 3.3,
+    "side": 1.0
+   }
+  ],
+  "mtime": 1791007933,
+  "size": 13032924
+ },
+ "they_are_coming_to_take_me_away": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 73.0,
+    "b": 75.0,
+    "c": "B",
+    "prom": 4.4,
+    "side": 0.9
+   },
+   {
+    "a": 37.2,
+    "b": 39.0,
+    "c": "B",
+    "prom": 4.1,
+    "side": 1.0
+   }
+  ],
+  "mtime": 1791008062,
+  "size": 8917818
+ },
+ "this_is_halloween": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 160.0,
+    "b": 161.3,
+    "c": "B",
+    "prom": 3.4,
+    "side": 0.7
+   },
+   {
+    "a": 57.7,
+    "b": 59.4,
+    "c": "B",
+    "prom": 3.5,
+    "side": -1.1
+   }
+  ],
+  "mtime": 1791008151,
+  "size": 14174139
+ },
+ "three_children_bold": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 31.6,
+    "b": 32.6,
+    "c": "B",
+    "prom": 4.5,
+    "side": 0.0
+   },
+   {
+    "a": 114.5,
+    "b": 115.5,
+    "c": "B",
+    "prom": 4.0,
+    "side": 2.4
+   }
+  ],
+  "mtime": 1791010455,
+  "size": 11460734
+ },
+ "thriller": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.51,
+    "score": 176.7,
+    "t": [
+     223.13,
+     223.64,
+     224.19,
+     225.16,
+     225.66,
+     226.17,
+     227.19,
+     227.69
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 34.4,
+    "b": 36.9,
+    "c": "B",
+    "prom": 3.0,
+    "side": -0.7
+   }
+  ],
+  "mtime": 1791008450,
+  "size": 22308260
+ },
+ "thunderstruck": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791008502,
+  "size": 22009658
+ },
+ "time_warp": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 27.0,
+    "b": 28.2,
+    "c": "B",
+    "prom": 4.0,
+    "side": 0.0
+   }
+  ],
+  "mtime": 1791008468,
+  "size": 14997194
+ },
+ "treater_greeters_trio_02_step_right_up_step_right_up": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010680,
+  "size": 2755307
+ },
+ "treater_greeters_trio_03_happy_halloween_everyone_welcome_to": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791010678,
+  "size": 2530256
+ },
+ "treater_greeters_trio_04_hey_kid_wont_you": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791011123,
+  "size": 1408558
+ },
+ "treater_greeters_trio_05_speaking_of_candy": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 63.6,
+    "b": 64.7,
+    "c": "B",
+    "prom": 10.7,
+    "side": -0.0
+   }
+  ],
+  "mtime": 1791011260,
+  "size": 7432690
+ },
+ "treater_greeters_trio_06_hey_you_wanna_see": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.37,
+    "score": 155.4,
+    "t": [
+     31.9,
+     32.25,
+     32.62,
+     32.99,
+     33.38,
+     33.78
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 52.5,
+    "b": 53.8,
+    "c": "B",
+    "prom": 8.9,
+    "side": -1.5
+   }
+  ],
+  "mtime": 1791011267,
+  "size": 6596020
+ },
+ "treater_greeters_trio_07_happy_halloween_everybody": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791011218,
+  "size": 1229085
+ },
+ "trick_ghastly_ghostbusters": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 136.2,
+    "b": 137.4,
+    "c": "B",
+    "prom": 3.3,
+    "side": -0.2
+   }
+  ],
+  "mtime": 1791008601,
+  "size": 13798584
+ },
+ "twas_the_night_of_halloween": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 47.9,
+    "b": 48.9,
+    "c": "B",
+    "prom": 5.0,
+    "side": -0.0
+   },
+   {
+    "a": 79.0,
+    "b": 80.2,
+    "c": "B",
+    "prom": 5.5,
+    "side": 1.0
+   }
+  ],
+  "mtime": 1791010607,
+  "size": 8114219
+ },
+ "welcome_to_our_haunt": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.45,
+    "score": 202.4,
+    "t": [
+     6.4,
+     6.85,
+     7.34,
+     7.79,
+     10.6,
+     11.05,
+     11.54
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 38.0,
+    "b": 39.4,
+    "c": "B",
+    "prom": 4.5,
+    "side": 0.1
+   },
+   {
+    "a": 12.1,
+    "b": 13.1,
+    "c": "B",
+    "prom": 3.2,
+    "side": 2.7
+   }
+  ],
+  "mtime": 1791009919,
+  "size": 16618925
+ },
+ "werewolves_of_london": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 179.9,
+    "b": 182.7,
+    "c": "B",
+    "prom": 4.3,
+    "side": -0.6
+   }
+  ],
+  "mtime": 1791008819,
+  "size": 11346791
+ },
+ "whispering_husk": {
+  "algo": 1,
+  "clacks": [
+   {
+    "c": "B",
+    "gap": 0.37,
+    "score": 164.7,
+    "t": [
+     154.93,
+     155.3,
+     156.43,
+     156.81,
+     157.93,
+     158.3,
+     158.67
+    ]
+   }
+  ],
+  "holds": [
+   {
+    "a": 14.9,
+    "b": 16.0,
+    "c": "B",
+    "prom": 3.2,
+    "side": 0.5
+   }
+  ],
+  "mtime": 1793136157,
+  "size": 9124104
+ },
+ "witching_hour": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 44.2,
+    "b": 46.0,
+    "c": "B",
+    "prom": 3.1,
+    "side": -1.9
+   }
+  ],
+  "mtime": 1791009957,
+  "size": 17093751
+ },
+ "withered_root_waltz": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 66.2,
+    "b": 68.6,
+    "c": "B",
+    "prom": 4.0,
+    "side": 0.0
+   },
+   {
+    "a": 16.9,
+    "b": 18.5,
+    "c": "B",
+    "prom": 4.6,
+    "side": -0.5
+   }
+  ],
+  "mtime": 1793136386,
+  "size": 9580629
+ },
+ "wraith_in_the_wheat": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 47.9,
+    "b": 49.0,
+    "c": "B",
+    "prom": 3.8,
+    "side": 0.1
+   },
+   {
+    "a": 108.6,
+    "b": 109.7,
+    "c": "B",
+    "prom": 3.5,
+    "side": -0.3
+   }
+  ],
+  "mtime": 1793136366,
+  "size": 7840176
+ },
+ "yo_ho_yo_ho": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [
+   {
+    "a": 76.4,
+    "b": 77.8,
+    "c": "B",
+    "prom": 4.2,
+    "side": 0.2
+   },
+   {
+    "a": 29.2,
+    "b": 30.5,
+    "c": "B",
+    "prom": 3.9,
+    "side": 0.2
+   }
+  ],
+  "mtime": 1791008768,
+  "size": 10709984
+ },
+ "zombie_jamboree": {
+  "algo": 1,
+  "clacks": [],
+  "holds": [],
+  "mtime": 1791008921,
+  "size": 15162327
+ }
+}

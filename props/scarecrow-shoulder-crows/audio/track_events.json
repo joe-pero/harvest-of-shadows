@@ -1,0 +1,76 @@
+{
+ "track_ms": 300000,
+ "show_block_ms": 38628,
+ "events": [
+  {
+   "start_ms": 610,
+   "dur_ms": 1690,
+   "call": "call_01_1.5s"
+  },
+  {
+   "start_ms": 4695,
+   "dur_ms": 4260,
+   "call": "call_02_4.1s"
+  },
+  {
+   "start_ms": 10537,
+   "dur_ms": 5020,
+   "call": "call_00_4.8s"
+  },
+  {
+   "start_ms": 15080,
+   "dur_ms": 2760,
+   "call": "call_05_2.6s"
+  },
+  {
+   "start_ms": 17793,
+   "dur_ms": 4960,
+   "call": "call_09_4.8s"
+  },
+  {
+   "start_ms": 23525,
+   "dur_ms": 4360,
+   "call": "call_14_4.2s"
+  },
+  {
+   "start_ms": 27754,
+   "dur_ms": 2750,
+   "call": "call_13_2.5s"
+  },
+  {
+   "start_ms": 31923,
+   "dur_ms": 2680,
+   "call": "call_07_2.5s"
+  },
+  {
+   "start_ms": 35499,
+   "dur_ms": 2830,
+   "call": "call_12_2.6s"
+  },
+  {
+   "start_ms": 65747,
+   "dur_ms": 1750,
+   "call": "call_10_1.5s"
+  },
+  {
+   "start_ms": 110908,
+   "dur_ms": 1570,
+   "call": "call_06_1.4s"
+  },
+  {
+   "start_ms": 157179,
+   "dur_ms": 5020,
+   "call": "call_00_4.8s"
+  },
+  {
+   "start_ms": 212294,
+   "dur_ms": 980,
+   "call": "call_04_0.8s"
+  },
+  {
+   "start_ms": 263073,
+   "dur_ms": 2750,
+   "call": "call_13_2.5s"
+  }
+ ]
+}
