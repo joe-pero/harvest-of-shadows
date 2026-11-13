@@ -17,7 +17,7 @@ silent. This repo is the code behind the 2026 show.
 
 ## The 2026 season at a glance
 
-| | |
+| Measure | 2026 result |
 |---|---|
 | Visits handled by the show | **183** across the season, **72** on Halloween night |
 | Controllers in the yard | **14** (ESP32, ESP32-A1S, ESP-01S), one leader + 13 followers |
